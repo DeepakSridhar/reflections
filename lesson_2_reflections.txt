@@ -13,3 +13,7 @@ Add the files corresponding to the logical change you made and commit them all a
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you want to experiment on new feature then branches are useful. Branches track the experimental features along separate line so that your original file is not altered and there is a working version available.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams makes viewing the branches and their commits in much simpler way. They also help us to find any commit that is not reachable.
