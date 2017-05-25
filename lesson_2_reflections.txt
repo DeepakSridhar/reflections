@@ -5,3 +5,7 @@ When we initialize a repository it creates a hidden folder which saves all the c
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is the place to keep the files to be commited at once. The working directory contains all files in the repository. Ther staging area allows us to selectively commit files based on their dependencies.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Add the files corresponding to the logical change you made and commit them all at once.
