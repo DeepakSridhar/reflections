@@ -21,3 +21,8 @@ Diagrams makes viewing the branches and their commits in much simpler way. They 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merge adds all the changes to the merged commit from both the parent branches. the diagram simplifies everything.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros are that it saves us time in merging.
+Cons are that it might result in a conflict and the code will not be usable
