@@ -1,28 +1,23 @@
 What happens when you initialize a repository? Why do you need to do it?
-
-When we initialize a repository it creates a hidden folder which saves all the commits made in the repository. However, it creates an empty directory at first. We need it for version control.
+When we initialize a repository it creates a hidden folder which saves all the commits made in the repository. However, it creates an
+empty directory at first. We need it for version control.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
 Staging area is the place to keep the files to be commited at once. The working directory contains all files in the repository. Ther staging area allows us to selectively commit files based on their dependencies.
 
 How can you use the staging area to make sure you have one commit per logical change?
-
 Add the files corresponding to the logical change you made and commit them all at once.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
-When you want to experiment on new feature then branches are useful. Branches track the experimental features along separate line so that your original file is not altered and there is a working version available.
+When you want to experiment on new feature then branches are useful. Branches track the experimental features along separate line so that
+your original file is not altered and there is a working version available.
 
 How do the diagrams help you visualize the branch structure?
-
 Diagrams makes viewing the branches and their commits in much simpler way. They also help us to find any commit that is not reachable.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
 Merge adds all the changes to the merged commit from both the parent branches. the diagram simplifies everything.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
 Pros are that it saves us time in merging.
 Cons are that it might result in a conflict and the code will not be usable
