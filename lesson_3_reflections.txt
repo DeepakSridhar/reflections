@@ -20,3 +20,10 @@ and hence a copy of the remote is essential to resolve this conflict and merge t
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Use other file sharing platforms such as dropbox, onedrive etc. It would save us the time to learn about Git and GitHub. Contrary to this,
 it would allow us to collaborate much efficiently with the array of features available in Git and GitHub.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When you are working with your colloborators changing the master directly is not ideal and asking their consent before doing so is
+essential and so in such a scenario we need to make changes in a separate branch rather than directly in master. 
+Making changes directly in master much easier and simpler however it has its shortcomings.
+Making changes in a separate branch and merging them to the master using pull request requires a bit more work but it allows everyone on
+the project to review before the change is made.
