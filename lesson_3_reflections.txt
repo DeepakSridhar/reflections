@@ -10,3 +10,7 @@ Fork is used to clone some GitHub repository on the GitHub server itself ie onli
 Clone is used to create a snapshot of your repository from GitHub to your local machine.
 Branch is used to experiment a new feature without affecting your working version of the project.
 Fork is useful when you want to add your ideas to an existing project without affecting the original. Clone is useful when you want to work offline. Branches allow us to expand our creativity and add new features to the existing project without affectingthe original.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+When there are other collaborators working on the same project theirchanges might result in out of sync of commits with the local machine and hence a copy of the remote is essential to resolve this conflict and merge the commits to be up to date.
